@@ -1,7 +1,7 @@
+# CAP Plugins
 plugins:
 - id: analysis-model-api
 - id: antisamy-markup-formatter
-- id: bootstrap4-api
 - id: checks-api
 - id: cloudbees-casc-client
 - id: cloudbees-casc-items-api
@@ -35,8 +35,11 @@ plugins:
 - id: pipeline-stage-view
 - id: plugin-util-api
 - id: pipeline-utility-steps
-- id: popper-api
 - id: warnings-ng
-- id: wikitext
 - id: workflow-aggregator
 - id: workflow-cps-checkpoint
+
+# Non-CAP Plugins
+- id: bootstrap4-api
+- id: popper-api
+- id: wikitext
