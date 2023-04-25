@@ -35,11 +35,10 @@ plugins:
 - id: pipeline-stage-view
 - id: plugin-util-api
 - id: pipeline-utility-steps
+- id: popper2-api
 - id: warnings-ng
 - id: workflow-aggregator
 - id: workflow-cps-checkpoint
 
 # Non-CAP Plugins
 - id: bootstrap4-api
-- id: popper-api
-- id: wikitext
