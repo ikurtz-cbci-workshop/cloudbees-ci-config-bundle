@@ -6,3 +6,5 @@ configurations:
 - description: Workshop Additional Plugins
   includePlugins:
     pipeline-utility-steps: {version: '2.12.0'}
+    bootstrap4-api: {version: '4.6.0-5'}
+    
