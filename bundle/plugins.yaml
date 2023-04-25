@@ -41,4 +41,3 @@ plugins:
 - id: workflow-cps-checkpoint
 
 # Non-CAP Plugins
-- id: bootstrap4-api
