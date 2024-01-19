@@ -98,7 +98,7 @@ kube:
       - envVar:
           key: "MAVEN_CONFIG"
           value: "/var/maven/.m2"
-      hostNetwork: false
+      id: "7be5f65c-6543-4280-862f-24000e24f308"
       idleMinutes: 10
       idleMinutesStr: "10"
       label: "maven"
