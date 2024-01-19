@@ -84,7 +84,7 @@ kube:
     - containers:
       - args: "cat"
         command: "/bin/sh -c"
-        image: "maven:3-openjdk-8"
+        image: "maven:3.9.4-eclipse-temurin-11"
         livenessProbe:
           failureThreshold: 0
           initialDelaySeconds: 0
@@ -99,11 +99,11 @@ kube:
           key: "MAVEN_CONFIG"
           value: "/var/maven/.m2"
       hostNetwork: false
-      idleMinutes: 30
-      idleMinutesStr: "30"
+      idleMinutes: 10
+      idleMinutesStr: "10"
       label: "maven"
       name: "maven"
-      podRetention: "always"
+      podRetention: "never"
       volumes:
       - emptyDirVolume:
           memory: false
