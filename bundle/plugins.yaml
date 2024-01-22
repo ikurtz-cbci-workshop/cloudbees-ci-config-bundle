@@ -41,5 +41,4 @@ plugins:
 - id: warnings-ng
 - id: workflow-aggregator
 - id: workflow-cps-checkpoint
-
 # Non-CAP Plugins
