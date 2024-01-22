@@ -24,6 +24,7 @@ plugins:
 - id: forensics-api
 - id: git
 - id: github-branch-source
+- id: gitlab-branch-source
 - id: jacoco
 - id: jquery3-api
 - id: managed-master-hibernation
