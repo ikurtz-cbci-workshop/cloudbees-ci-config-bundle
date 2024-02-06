@@ -50,4 +50,3 @@ groups:
   roles:
   - name: user
     grantedAt: child
-  
