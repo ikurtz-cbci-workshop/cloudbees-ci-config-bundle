@@ -32,7 +32,6 @@ groups:
   members:
     users:
     - admin
-    - team-admin
     - ikurtz-admin
   roles:
   - name: administrator
