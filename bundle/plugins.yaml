@@ -28,7 +28,6 @@ plugins:
 - id: jacoco
 - id: jquery3-api
 - id: managed-master-hibernation
-- id: maven-plugin
 - id: notification-api
 - id: operations-center-cloud
 - id: operations-center-notification
